@@ -1,0 +1,1984 @@
+Unity Editor version:    6000.1.11f1 (9b156bbbd4df)
+Branch:                  6000.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Date:                    2025-07-27T10:13:28Z
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/camille/Desktop/projet fin forma/TestJeuMayaMalediction
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50991
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/camille/Desktop/projet fin forma/TestJeuMayaMalediction
+/Users/camille/Desktop/projet fin forma/TestJeuMayaMalediction
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8021360960]  Target information:
+
+Player connection [8021360960]  * "[IP] 192.168.129.17 [Port] 0 [Flags] 2 [Guid] 2222091214 [EditorId] 2222091214 [Version] 1048832 [Id] OSXEditor(0,Campink) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8021360960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8021360960] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.11f1 (9b156bbbd4df)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/camille/Desktop/projet fin forma/TestJeuMayaMalediction/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000727 seconds.
+- Loaded All Assemblies, in  0.291 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 86 ms
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 792ms
+	BeginReloadAssembly (60ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (227ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1347ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4503 unused Assets / (0.9 MB). Loaded Objects now: 4966.
+Memory consumption went from 87.8 MB to 87.0 MB.
+Total: 10.475708 ms (FindLiveObjects: 0.295083 ms CreateObjectMapping: 0.142875 ms MarkObjects: 9.163292 ms  DeleteObjects: 0.874000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3249.894735 seconds.
+  path: Assets/Scenes/assets/projetJeu.glb
+  artifactKey: Guid(bba9d4217a9a84ed7ba3b04e8f7688c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/projetJeu.glb using Guid(bba9d4217a9a84ed7ba3b04e8f7688c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbdd995a2bb119b0b5f2f4a52d5d2860') in 0.016289542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.510512 seconds.
+  path: Assets/Scenes/assets/projetJeu.fbx
+  artifactKey: Guid(9838a5e0878f441669b052881f804142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/projetJeu.fbx using Guid(9838a5e0878f441669b052881f804142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02048e54889a19acc10ceb97d0ccb69e') in 3.015757417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3533
+
+========================================================================
+Received Import Request.
+  Time since last request: 1022.485858 seconds.
+  path: Assets/Scenes/assets/bouteille.fbx
+  artifactKey: Guid(8ccbaf1a950844860913ebfced33b2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/bouteille.fbx using Guid(8ccbaf1a950844860913ebfced33b2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63b0ff6b0594e3592fe1f451cf513bf0') in 0.022594708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/assets/volant.fbx
+  artifactKey: Guid(f396de122a93242ad97be97b9a3a2a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/volant.fbx using Guid(f396de122a93242ad97be97b9a3a2a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b2ea25978bd8af7b02637da5552cc3') in 0.021943791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scenes/assets/tonneau.fbx
+  artifactKey: Guid(7246cf2198c894940a7883d82f6137d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/tonneau.fbx using Guid(7246cf2198c894940a7883d82f6137d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8fd5ba39b6b5673d4aae2624d2ed19') in 0.015603917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scenes/assets/sacs.fbx
+  artifactKey: Guid(3249a6d27fdad4985a231898c7a282cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/sacs.fbx using Guid(3249a6d27fdad4985a231898c7a282cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f01fec3a94df9af2a9630e0c4057e37e') in 0.024845334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scenes/assets/corde.fbx
+  artifactKey: Guid(d8c90d4849beb43cc8b87078c9775aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/corde.fbx using Guid(d8c90d4849beb43cc8b87078c9775aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee2e4c214e3ea4ea286e0cc0785bde0') in 0.0196545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scenes/assets/encre.fbx
+  artifactKey: Guid(8de5cfb39eef941c4bccbcd0ef530c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/encre.fbx using Guid(8de5cfb39eef941c4bccbcd0ef530c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80aad62f6baf736bc57319d230800f7c') in 0.0138125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 716.750506 seconds.
+  path: Assets/Scenes/material
+  artifactKey: Guid(1ae2d7f032d524dee8986f66b4d58dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/material using Guid(1ae2d7f032d524dee8986f66b4d58dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fce1eefff909b19ec4babba8ef3a393a') in 0.0004325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.477289 seconds.
+  path: Assets/Scenes/material/water.mat
+  artifactKey: Guid(40cf417d82ecd40299bc195094bbf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/material/water.mat using Guid(40cf417d82ecd40299bc195094bbf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '928dcf8d4bcac07e8be976ddbaecfc9d') in 0.008140792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4469 unused Assets / (1.1 MB). Loaded Objects now: 5017.
+Memory consumption went from 87.6 MB to 86.5 MB.
+Total: 10.224333 ms (FindLiveObjects: 0.274583 ms CreateObjectMapping: 0.220292 ms MarkObjects: 8.912500 ms  DeleteObjects: 0.816333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 876.133919 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3c924e5885454483a949286496a866e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3c924e5885454483a949286496a866e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6607260e0bddafbefaba2c2da438b331') in 0.00986125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.699535 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(39189a0e4ec324965ae6873dca64985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(39189a0e4ec324965ae6873dca64985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeba6ce02a1708457dcde04875d97114') in 0.000456375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.268492 seconds.
+  path: Assets/AureDevGames
+  artifactKey: Guid(f096525caa4fc49ef8ef322635c96a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames using Guid(f096525caa4fc49ef8ef322635c96a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '610993bdff462a36066ee46f7eee20b7') in 0.000360833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.966818 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera
+  artifactKey: Guid(1880f73641eabb445b52afe4fba28d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera using Guid(1880f73641eabb445b52afe4fba28d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f90644723ccb51d4a5e29f8fcf558d94') in 0.000331875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.724842 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain
+  artifactKey: Guid(36fdd480a60c9e24690560c4cc56511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain using Guid(36fdd480a60c9e24690560c4cc56511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7512e7211161b8d2ea4499afad3bbeff') in 0.000351709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065274 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/MountainClassic.asset
+  artifactKey: Guid(8357d41f947b9b64489b0dcfbdf5f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/MountainClassic.asset using Guid(8357d41f947b9b64489b0dcfbdf5f95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02a6458caa8f231b5aa734a482c55f16') in 0.000729041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain1Data.asset
+  artifactKey: Guid(2625381aef289ee4ca1de22222141ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain1Data.asset using Guid(2625381aef289ee4ca1de22222141ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Tree prefab at index 0 is missing.
+ -> (artifact id: '02f3ee1a319552ef7b86a9bf3434d85f') in 0.013568708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain5Data.asset
+  artifactKey: Guid(05cfeed775284494d8faf33b51197549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain5Data.asset using Guid(05cfeed775284494d8faf33b51197549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20b8bb49cfcc60e6cae3dd79e3500e89') in 0.007555333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain7Data.asset
+  artifactKey: Guid(bbb1a9bd71c791e42bc470931e1f4a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain7Data.asset using Guid(bbb1a9bd71c791e42bc470931e1f4a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d41586d32881fb640c567da899dadbd') in 0.007277167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_f9b3e16c-6515-4782-bb70-e733347e2701.asset
+  artifactKey: Guid(b499718a50eb9d64fba79fe18e70f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_f9b3e16c-6515-4782-bb70-e733347e2701.asset using Guid(b499718a50eb9d64fba79fe18e70f831) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0676c08048cc8173464457edd8e911fe') in 0.00652075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_4bfff978-8f80-4e4a-a8df-487c5ed4f214.asset
+  artifactKey: Guid(f12dde71860febf41b19c11f11cfd4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_4bfff978-8f80-4e4a-a8df-487c5ed4f214.asset using Guid(f12dde71860febf41b19c11f11cfd4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9714e974497f880f8fc8f19fb6b23a5c') in 0.005320959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain3Data.asset
+  artifactKey: Guid(6b209cd8f8f9c084781c76f588842abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain3Data.asset using Guid(6b209cd8f8f9c084781c76f588842abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29a1d96ae1927402d0c7f9bced356c69') in 0.010437792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.349878 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs
+  artifactKey: Guid(88f7ce5689eb3854e88bc832154576d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs using Guid(88f7ce5689eb3854e88bc832154576d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a977aefdaf9d91c0bf0172f8f81c4085') in 0.000375417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049037 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/BeachBall.prefab
+  artifactKey: Guid(64e79ca029f2ea54995d7a5d531c1328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/BeachBall.prefab using Guid(64e79ca029f2ea54995d7a5d531c1328) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dadf72906aae0ed07609648d573d3b06') in 0.044994167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/RiverEnvironment.prefab
+  artifactKey: Guid(b767c2c44a396e843a8ac17a2a831911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/RiverEnvironment.prefab using Guid(b767c2c44a396e843a8ac17a2a831911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb8ccbeed2e6aadd7f42d3dddb9c79c5') in 0.022620958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/SeaEnvironmentStylized.prefab
+  artifactKey: Guid(f718a10845157ee4da4f4604313f78e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/SeaEnvironmentStylized.prefab using Guid(f718a10845157ee4da4f4604313f78e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0dba50d8530edaca69db445baff3091') in 0.015558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/LavaEnvironment.prefab
+  artifactKey: Guid(5b1d454eab71e204ba633b51d29ce90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/LavaEnvironment.prefab using Guid(5b1d454eab71e204ba633b51d29ce90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fadc94fa0aab63ff24ce9b4ba816489') in 0.015605708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.552767 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader
+  artifactKey: Guid(097b419d107ba1a4cb186de8a4ccfa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader using Guid(097b419d107ba1a4cb186de8a4ccfa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01f861ef34ed06ff070995e9d4dd3329') in 0.000329291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.285177 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/Subgraphs
+  artifactKey: Guid(34f64370644eec34cbf490a9aaf8baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/Subgraphs using Guid(34f64370644eec34cbf490a9aaf8baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42acfd856b825bca1e6206272f4ba7ff') in 0.000374667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.128694 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL
+  artifactKey: Guid(8f6ce1ea55d91aa4c9b5678ee083554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL using Guid(8f6ce1ea55d91aa4c9b5678ee083554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8636cd6c53398ad3bfde6303d82d00bd') in 0.000413208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069408 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/DistortUV.hlsl
+  artifactKey: Guid(84eeacf7409dd9e4a8cbfab15c1cb3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/DistortUV.hlsl using Guid(84eeacf7409dd9e4a8cbfab15c1cb3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5d72865f15689928de22f977d4c8822') in 0.00065875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002867 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/GrestnerWaves.hlsl
+  artifactKey: Guid(0feec35a2e5b9e24cbf36fc074d44390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/GrestnerWaves.hlsl using Guid(0feec35a2e5b9e24cbf36fc074d44390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e126f14e14ce0dc66b27006c7f676040') in 0.000393459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/MainLighting.hlsl
+  artifactKey: Guid(9ec46a2fd8a98924e9af6e1cf4be7007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/MainLighting.hlsl using Guid(9ec46a2fd8a98924e9af6e1cf4be7007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c47e9c791fb9428830da618aa1c82eb2') in 0.000353083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.291338 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures
+  artifactKey: Guid(fe24fd3997b15734ca1cafbde3b128d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures using Guid(fe24fd3997b15734ca1cafbde3b128d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52cf7a1713b904f005420e5629975efb') in 0.000332583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.828260 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles
+  artifactKey: Guid(418d477117d94e344897164445358043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles using Guid(418d477117d94e344897164445358043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58035307dfa80b6b72fc33425c3355a5') in 0.000327167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.981940 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox
+  artifactKey: Guid(a92b8a2692f05eb47a8fcfe1e4856b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox using Guid(a92b8a2692f05eb47a8fcfe1e4856b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e38334a21d4226de65ef51b745912fbd') in 0.00040225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342662 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/Cubemap.cubemap
+  artifactKey: Guid(3cd3fe69444167c499843b73f2dbe6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/Cubemap.cubemap using Guid(3cd3fe69444167c499843b73f2dbe6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cfa076e741c3721f03a4f8ba8ed88f8') in 0.342995084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/ny.png
+  artifactKey: Guid(a14f78300f94112408e9ea555ed42c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/ny.png using Guid(a14f78300f94112408e9ea555ed42c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4a534f23f474f60e33423c7bbefb64e') in 0.005597209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/py 1.png
+  artifactKey: Guid(8db125f2982ee5541a649f36850cb9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/py 1.png using Guid(8db125f2982ee5541a649f36850cb9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '251339035bc856166fa6496fa89fbb45') in 0.008986875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.421774 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock
+  artifactKey: Guid(af249aa6a0fb8d34d9263a505b5fc6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock using Guid(af249aa6a0fb8d34d9263a505b5fc6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8822fef2f44f4343e52145aa1bd24a02') in 0.000444042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.188901 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock/RockVolcanic.terrainlayer
+  artifactKey: Guid(bdb7498aa013983459ccf260bacfc35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock/RockVolcanic.terrainlayer using Guid(bdb7498aa013983459ccf260bacfc35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf28a914c7f31ca3ae8aaf1a6d6db5a4') in 0.015760334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock/TCom_Rock_CliffVolcanic_2K_normal (1).tif
+  artifactKey: Guid(934646be216f59d41ad0e1608265fd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock/TCom_Rock_CliffVolcanic_2K_normal (1).tif using Guid(934646be216f59d41ad0e1608265fd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '080a9063dd89ab2215d664933836aeac') in 0.053588375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.299785 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/SceneTemplate
+  artifactKey: Guid(a85427d71b7d1604e90cc22c3c2476e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/SceneTemplate using Guid(a85427d71b7d1604e90cc22c3c2476e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e9f1db7b619f0a4e16180389a197ecc') in 0.000335958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.836085 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/SceneTemplate/WaterTemplate.unity
+  artifactKey: Guid(975792d9461c96145899ad14015f1408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/SceneTemplate/WaterTemplate.unity using Guid(975792d9461c96145899ad14015f1408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebd86b293a52bc436798511cd017b5e8') in 0.000357333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.077884 seconds.
+  path: Assets/scene.unity
+  artifactKey: Guid(391f1ef558d174c959e1b0b29b4126dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scene.unity using Guid(391f1ef558d174c959e1b0b29b4126dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '528fd6b24978994db97584ec1f442526') in 0.000508875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.607861 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/BeachBall
+  artifactKey: Guid(c1b4502fc1fb9c545864c94ed27df479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/BeachBall using Guid(c1b4502fc1fb9c545864c94ed27df479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '865d43588b3827bcfa64b4722656221b') in 0.000406959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109295 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/BeachBall/BeachBall.mat
+  artifactKey: Guid(1aeec081a69596145ab13d068de02fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/BeachBall/BeachBall.mat using Guid(1aeec081a69596145ab13d068de02fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce0d5bfef1f86206ec048afb9447e28d') in 0.00950525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.634168 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor
+  artifactKey: Guid(65a0ebe4dca4a4845b1438fefc783d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor using Guid(65a0ebe4dca4a4845b1438fefc783d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ae17b0d8a02b4ad9d7f6f7c839141b') in 0.000398125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074051 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_diff_2k.png
+  artifactKey: Guid(95588501ea5b8d4449992b53313c06fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_diff_2k.png using Guid(95588501ea5b8d4449992b53313c06fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a475fe45b1c0638f548305df81fcec57') in 0.006158958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_rough_2k.exr
+  artifactKey: Guid(4b04da4e9f02d6943ab5c3a7af3a002a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_rough_2k.exr using Guid(4b04da4e9f02d6943ab5c3a7af3a002a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de41f3c4ff949f8800b15551689eee20') in 0.007178875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.261981 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock
+  artifactKey: Guid(695267cbd2485584684265bd8182637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock using Guid(695267cbd2485584684265bd8182637e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fa2d8617201eecef82bcde7b7fc217e') in 0.000355417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085340 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_diff_2k.png
+  artifactKey: Guid(b07f0ef3ae100f94b9629df30c75e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_diff_2k.png using Guid(b07f0ef3ae100f94b9629df30c75e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cd08687da21921a0813137eb7dcdf59') in 0.006505167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_nor_gl_2k.exr
+  artifactKey: Guid(500afbd92ec4c984d8234c4fc6131767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_nor_gl_2k.exr using Guid(500afbd92ec4c984d8234c4fc6131767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cae85e2e222dd68286b846e282361010') in 0.007789708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.779380 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural
+  artifactKey: Guid(c9962a0c9a7839d4fa3fb1f2aebb3534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural using Guid(c9962a0c9a7839d4fa3fb1f2aebb3534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a473822ecbf6a607f6e76b15319a1b38') in 0.000322958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072946 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/blurredCaveTex.png
+  artifactKey: Guid(351fad9b94d9c2e4c932375d02947c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/blurredCaveTex.png using Guid(351fad9b94d9c2e4c932375d02947c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b3e3551ea040e4a81b871c445dbe149') in 0.005869459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/VoronoiWaterSubstance.png
+  artifactKey: Guid(c58aa24ed73fba846b5000ddda992872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/VoronoiWaterSubstance.png using Guid(c58aa24ed73fba846b5000ddda992872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92857351e10e02e8212573149185e833') in 0.005482334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/perlinNoise.png
+  artifactKey: Guid(834c2a530966bd34eb9762c13c919276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/perlinNoise.png using Guid(834c2a530966bd34eb9762c13c919276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c513274b91e0ad839ad6936b55f20e85') in 0.005320958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/waterTex2.png
+  artifactKey: Guid(6fefcd8c793db25468e4708bffc9b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/waterTex2.png using Guid(6fefcd8c793db25468e4708bffc9b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69237dcc4eb96913a9725cc32cb82610') in 0.005374459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/VoronoiWaterSubstanceInverted.png
+  artifactKey: Guid(6d338b81213410140b5be6b8b964d455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/VoronoiWaterSubstanceInverted.png using Guid(6d338b81213410140b5be6b8b964d455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84325778c609686e23dfc81ae60422cb') in 0.005487958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/voronoiUpgraded_albedo.png
+  artifactKey: Guid(acf838d458094e11b23ceafc2d9a02b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/voronoiUpgraded_albedo.png using Guid(acf838d458094e11b23ceafc2d9a02b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9860a1c703af7388397bc12376a6c9fb') in 0.005019708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/riverTex.png
+  artifactKey: Guid(02a526b5b20373644a6b15e705f2105f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/riverTex.png using Guid(02a526b5b20373644a6b15e705f2105f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdab6f39c1c931b25256cf7fdef2bac8') in 0.004659416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.162637 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow
+  artifactKey: Guid(5b4a98694aaa1ae4cb130f4017a21fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow using Guid(5b4a98694aaa1ae4cb130f4017a21fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34ad6e7da4138a061194e7606fad84dd') in 0.000333875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073754 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_ambient_occlusion_2k.png
+  artifactKey: Guid(605cc8c8b9e7eb949a51544aeb4265bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_ambient_occlusion_2k.png using Guid(605cc8c8b9e7eb949a51544aeb4265bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7250618e501eec03a6766f53cbe9d85') in 0.00585125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_roughness_2k.png
+  artifactKey: Guid(e77cf5116d77d1b4989a1f176396b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_roughness_2k.png using Guid(e77cf5116d77d1b4989a1f176396b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c62611eae33476f3d2b7deac64e66364') in 0.00626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_normal_dx_2k.png
+  artifactKey: Guid(a63d1c332504d914589d81b798508358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_normal_dx_2k.png using Guid(a63d1c332504d914589d81b798508358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f50e4f1369cd7425ce34283bb1ef4e86') in 0.008274625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.701847 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/Moss.terrainlayer
+  artifactKey: Guid(4a166bb89ced99f4cade82e0973af608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/Moss.terrainlayer using Guid(4a166bb89ced99f4cade82e0973af608) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db1fa6796bbd8ca66de9f21cc9d4c153') in 0.001050375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/Sand.terrainlayer
+  artifactKey: Guid(07f7e21dfa299044abcc0f7f31413aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/Sand.terrainlayer using Guid(07f7e21dfa299044abcc0f7f31413aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b36f430e3ebffb19d8d18ea48a64c0') in 0.00401875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/SnowMountain.terrainlayer
+  artifactKey: Guid(17f8e929eb629c94d8a37a0dd5e1fbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/SnowMountain.terrainlayer using Guid(17f8e929eb629c94d8a37a0dd5e1fbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2996aab6db169b8818b18154c191d5f0') in 0.004292625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4469 unused Assets / (1.8 MB). Loaded Objects now: 5025.
+Memory consumption went from 90.0 MB to 88.2 MB.
+Total: 11.005917 ms (FindLiveObjects: 0.251541 ms CreateObjectMapping: 0.160292 ms MarkObjects: 9.035083 ms  DeleteObjects: 1.558583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x292a93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.567 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (127ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4501 unused Assets / (1.1 MB). Loaded Objects now: 5024.
+Memory consumption went from 103.4 MB to 102.4 MB.
+Total: 9.534708 ms (FindLiveObjects: 0.226125 ms CreateObjectMapping: 0.140750 ms MarkObjects: 8.408375 ms  DeleteObjects: 0.758916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 241.747000 seconds.
+  path: Assets/Scenes/material/NewRayTracingShader.raytrace
+  artifactKey: Guid(be2c9d909571a4404a2183ef8e90ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/material/NewRayTracingShader.raytrace using Guid(be2c9d909571a4404a2183ef8e90ca90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19d597f61a46784dec1b8b443f619c56') in 0.012400791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x292a93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1270ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (700ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4506 unused Assets / (2.3 MB). Loaded Objects now: 5028.
+Memory consumption went from 103.6 MB to 101.2 MB.
+Total: 10.535500 ms (FindLiveObjects: 0.253708 ms CreateObjectMapping: 0.151333 ms MarkObjects: 9.032125 ms  DeleteObjects: 1.097917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 249.442712 seconds.
+  path: Assets/AQUAS-Lite
+  artifactKey: Guid(a765a5c02329240f984722bfa21bddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite using Guid(a765a5c02329240f984722bfa21bddb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81437423dfdeb22d8b65ee6b3456d906') in 0.001026375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.702661 seconds.
+  path: Assets/AQUAS-Lite/Demo
+  artifactKey: Guid(e6fcf26c014583945bae4c6407125469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo using Guid(e6fcf26c014583945bae4c6407125469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa493c229713ad048b5d8ac3ca01dcb8') in 0.000393083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078295 seconds.
+  path: Assets/AQUAS-Lite/Demo/ALiteDemoTerrain.asset
+  artifactKey: Guid(9a203924af969ff4e9e93eb1129c14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/ALiteDemoTerrain.asset using Guid(9a203924af969ff4e9e93eb1129c14a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e0c209102c826f667f273efc4e84939') in 0.116697166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.428406 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures
+  artifactKey: Guid(b28c0a722f0fe1543baf3917170e3a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures using Guid(b28c0a722f0fe1543baf3917170e3a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31aa28c6d6bc349f6bd0ac5582bf9be1') in 0.000357083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074950 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Cliffs.jpg
+  artifactKey: Guid(ea2cf029f996b84418c75102c55065fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Cliffs.jpg using Guid(ea2cf029f996b84418c75102c55065fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e128ada45f5e600b947767f68cfff02') in 0.00619025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Gravel_normal.jpg
+  artifactKey: Guid(83aafc05457cf62498959bba131b4ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Gravel_normal.jpg using Guid(83aafc05457cf62498959bba131b4ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09ed63ccab237fc9da43a17ca9c51be0') in 0.00688675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/RockGrassy.jpg
+  artifactKey: Guid(d64e707b7eb5d144fa11d381b14d1fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/RockGrassy.jpg using Guid(d64e707b7eb5d144fa11d381b14d1fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cdc13853bfc41e1003fdc87f657fabf') in 0.005235125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/RockGrassy_normal.jpg
+  artifactKey: Guid(e0deaff0e88983949ad2c760894c6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/RockGrassy_normal.jpg using Guid(e0deaff0e88983949ad2c760894c6590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24690558b01a064bfefbec6a5427fa8a') in 0.005485584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Grass.jpg
+  artifactKey: Guid(34429bd1432eead4281c991a7f86aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Grass.jpg using Guid(34429bd1432eead4281c991a7f86aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a01adbb5a7a70282c1b1d96e122e667') in 0.005016291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Gravel.jpg
+  artifactKey: Guid(fe4e2613219b2654c82dd59079667fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Gravel.jpg using Guid(fe4e2613219b2654c82dd59079667fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21c1500f610e5250c64488d2352d003e') in 0.006352625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Grass_normal.jpg
+  artifactKey: Guid(90b846a0f2d470248a7f4e706a1ef73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Grass_normal.jpg using Guid(90b846a0f2d470248a7f4e706a1ef73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6959dadc2377a78f59b97b33a5320db1') in 0.005111834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.952112 seconds.
+  path: Assets/AQUAS-Lite/Materials
+  artifactKey: Guid(bf37ea52eb1ccfc45bad29c19f5cd7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Materials using Guid(bf37ea52eb1ccfc45bad29c19f5cd7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2edd9a351b5b0f978073df751a17b2ff') in 0.000383416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045455 seconds.
+  path: Assets/AQUAS-Lite/Materials/AQUAS_Lite_Water.mat
+  artifactKey: Guid(f59ea535bb715ca4da8afac832fd36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Materials/AQUAS_Lite_Water.mat using Guid(f59ea535bb715ca4da8afac832fd36eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a03aea8d8efde73fb66886289ea2798') in 0.5405735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x291dc7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.517 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.861 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (862ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (749ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (2.1 MB). Loaded Objects now: 5030.
+Memory consumption went from 102.6 MB to 100.4 MB.
+Total: 13.830084 ms (FindLiveObjects: 0.296833 ms CreateObjectMapping: 0.176417 ms MarkObjects: 11.320834 ms  DeleteObjects: 2.035125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x291dc7000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.801 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (802ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (690ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4505 unused Assets / (1.8 MB). Loaded Objects now: 5030.
+Memory consumption went from 101.3 MB to 99.5 MB.
+Total: 11.012792 ms (FindLiveObjects: 0.314958 ms CreateObjectMapping: 0.168583 ms MarkObjects: 9.240500 ms  DeleteObjects: 1.288250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 403.475915 seconds.
+  path: Assets/AQUAS-Lite/Prefabs
+  artifactKey: Guid(ef4b7651d6eedba409e2f211f0dff24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Prefabs using Guid(ef4b7651d6eedba409e2f211f0dff24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb35c3b365ad7612ec66a57f4b7e7ec4') in 0.001207209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048210 seconds.
+  path: Assets/AQUAS-Lite/Prefabs/WaterPlane.prefab
+  artifactKey: Guid(6488b6e6bbe8a9c4585b531a71d8211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Prefabs/WaterPlane.prefab using Guid(6488b6e6bbe8a9c4585b531a71d8211c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f587bd46e45d80e920288a76bd896471') in 0.328173917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.576939 seconds.
+  path: Assets/AQUAS-Lite/Models
+  artifactKey: Guid(1d587bedae6edc44d924a9d81a9eefbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Models using Guid(1d587bedae6edc44d924a9d81a9eefbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13e9276fda0024765e71b9a77a9bc93b') in 0.000372708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084715 seconds.
+  path: Assets/AQUAS-Lite/Models/WaterPlane.fbx
+  artifactKey: Guid(c9c3797c5d4107747a25bfa19fd7ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Models/WaterPlane.fbx using Guid(c9c3797c5d4107747a25bfa19fd7ae39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be4a460b42f8959a961cc479923554d') in 0.020466375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.210729 seconds.
+  path: Assets/AQUAS-Lite/Models/Materials
+  artifactKey: Guid(30e840889edd8804ebe98431c3abd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Models/Materials using Guid(30e840889edd8804ebe98431c3abd047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '508628576e015b243e28c90d4e7fac25') in 0.00037525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.109307 seconds.
+  path: Assets/AQUAS-Lite/Models/Materials/WaterSimpleDaylight.mat
+  artifactKey: Guid(cb6f3344386d8b44ea69a4d8c453389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Models/Materials/WaterSimpleDaylight.mat using Guid(cb6f3344386d8b44ea69a4d8c453389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b034ca4a9512b252fbcf7648b4a45700') in 0.014142292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.145087 seconds.
+  path: Assets/AQUAS-Lite/Shaders
+  artifactKey: Guid(5fe25835f58497c4aadcd5b4f5719c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Shaders using Guid(5fe25835f58497c4aadcd5b4f5719c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4cfde37a3dbbe047b3dde99681c9830') in 0.0003705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.583748 seconds.
+  path: Assets/AQUAS-Lite/Textures/Waves_HiRes.png
+  artifactKey: Guid(0d05b23ea2d999b47825c6c522e25adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Textures/Waves_HiRes.png using Guid(0d05b23ea2d999b47825c6c522e25adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '261ea1572f5528f8a03458fc36db885f') in 0.022116958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.316497 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-0_comp_dir.png
+  artifactKey: Guid(1368c0ce7ab260d49806eec0d373edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-0_comp_dir.png using Guid(1368c0ce7ab260d49806eec0d373edd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfe164f1ef659ee911ead90782a9d463') in 0.00796875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-1_comp_dir.png
+  artifactKey: Guid(ee61f336cf9478043946a43910970d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-1_comp_dir.png using Guid(ee61f336cf9478043946a43910970d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a50648eb862caa3f122d15552432d3e3') in 0.005516542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(3f39b244c1d7804408e0eb55fbfefd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-0_comp_shadowmask.png using Guid(3f39b244c1d7804408e0eb55fbfefd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4c5269808a856a824f913929339efc') in 0.008552083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b816010dfb303a241922614f635314bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-0_comp_shadowmask.png using Guid(b816010dfb303a241922614f635314bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb45c6083a0d34aaece689da7c8fc456') in 0.006235625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(81ae551615323ee40b766f30f05cc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-0_comp_shadowmask.png using Guid(81ae551615323ee40b766f30f05cc8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96199efe1642ba2067b93d92499b0f36') in 0.005826375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-1_comp_dir.png
+  artifactKey: Guid(bbe46c674465ce949bc46bde786043b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-1_comp_dir.png using Guid(bbe46c674465ce949bc46bde786043b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b00de7e4eb1fa92d47f3c3f8b3e2b610') in 0.005157458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-0_comp_light.exr
+  artifactKey: Guid(f8555555020241249bfcdd9ddf6d65e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-0_comp_light.exr using Guid(f8555555020241249bfcdd9ddf6d65e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dd9e95d6b03176a32652b4ba765ae68') in 0.056125584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-0_comp_light.exr
+  artifactKey: Guid(b1f9a8e3ccbd0c54c8be32a4ee85b46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-0_comp_light.exr using Guid(b1f9a8e3ccbd0c54c8be32a4ee85b46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf299b3209e56bc47d56812b69a9fa20') in 0.004836625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d28083c88cd22074cb5aa36d60433fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-0_comp_light.exr using Guid(d28083c88cd22074cb5aa36d60433fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854754a33a981a91f7118c4012d7985a') in 0.004947541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(a9c0f0738eca120419d5ff0831e413d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-0_comp_shadowmask.png using Guid(a9c0f0738eca120419d5ff0831e413d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78e778bca7d44a3a4b314bb0935c997e') in 0.007013291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(10944789132705a4892e3d3470839a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-0_comp_shadowmask.png using Guid(10944789132705a4892e3d3470839a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b1b22371b0f960da39f699b06763565') in 0.006083875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-1_comp_dir.png
+  artifactKey: Guid(80bf19b6f1bfa3f438773b0c67eb5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-1_comp_dir.png using Guid(80bf19b6f1bfa3f438773b0c67eb5b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba08756ae7ab962fd7165288e14813ee') in 0.005168958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-0_comp_light.exr
+  artifactKey: Guid(5be0300eb4031334bbb3b77d4017962b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-0_comp_light.exr using Guid(5be0300eb4031334bbb3b77d4017962b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed9b9ddd0bc4f999394121ec63ea10b0') in 0.004888666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-1_comp_dir.png
+  artifactKey: Guid(8ba6c802ce5ccd247a42f5bf5e99eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-1_comp_dir.png using Guid(8ba6c802ce5ccd247a42f5bf5e99eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afb02df661351573c7a75b40d2263392') in 0.0039985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-0_comp_dir.png
+  artifactKey: Guid(1c994e6d078f7bd46a093156b919f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-0_comp_dir.png using Guid(1c994e6d078f7bd46a093156b919f5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '744cf825e2e0b5a6e03aab860481818f') in 0.005658834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-1_comp_light.exr
+  artifactKey: Guid(d4cd9d9641e7a5e4aa02c76a7000a8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-1_comp_light.exr using Guid(d4cd9d9641e7a5e4aa02c76a7000a8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36cb9905a4e4e4f65cb300adee31a2b5') in 0.006539083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-0_comp_light.exr
+  artifactKey: Guid(344c14ce88246e64c9757c338b021ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-0_comp_light.exr using Guid(344c14ce88246e64c9757c338b021ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03529c11dd2cf7c487a48b4cc97713fa') in 0.004350541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(d37863e9dda26074e8549d7e9835b124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-0_comp_shadowmask.png using Guid(d37863e9dda26074e8549d7e9835b124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a55eeccdcd7d7f5be24f9053f2ed62c3') in 0.006330583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-1_comp_dir.png
+  artifactKey: Guid(6a964efa7ea1fe642bbffce1c4a6bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-1_comp_dir.png using Guid(6a964efa7ea1fe642bbffce1c4a6bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6309488fae9212f7a5d9e1d8b5b31d6') in 0.004543917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-0_comp_dir.png
+  artifactKey: Guid(b730a3342ee620f40be61318105ee0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-0_comp_dir.png using Guid(b730a3342ee620f40be61318105ee0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2552604ceed580760701aab4e7815df3') in 0.004491042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-1_comp_dir.png
+  artifactKey: Guid(031577a7036bb95438f843d518746f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-1_comp_dir.png using Guid(031577a7036bb95438f843d518746f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a684e8ec6573d5ae8adffa488ed9e90c') in 0.005230125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-1_comp_dir.png
+  artifactKey: Guid(f256b24ec056ee147b824863667afe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-1_comp_dir.png using Guid(f256b24ec056ee147b824863667afe49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2994a79e8a6f07dda6f0a59e2bde9338') in 0.00483525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(80e1c32565c190343b85e069e0f6df06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-0_comp_shadowmask.png using Guid(80e1c32565c190343b85e069e0f6df06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fbce280577bcd728aac6c3775a762c7') in 0.006931834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b9714e04d78a24448884bf5d5a145baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-0_comp_shadowmask.png using Guid(b9714e04d78a24448884bf5d5a145baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d7d64cf6ae260a266147ae6c46cea51') in 0.006519125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-0_comp_light.exr
+  artifactKey: Guid(de2a9d540e13d1b40b51cd1547316b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-0_comp_light.exr using Guid(de2a9d540e13d1b40b51cd1547316b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e63b7e94bcffdbdd244c7a43828e21f') in 0.003934625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(83022496c0abf0d45a19964d424cd3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-0_comp_shadowmask.png using Guid(83022496c0abf0d45a19964d424cd3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23c2195d7ec69dd5375977e7f091dc06') in 0.006234542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.119097 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-1_comp_light.exr
+  artifactKey: Guid(499ba915e6fd3bd46ada830488cb84bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-1_comp_light.exr using Guid(499ba915e6fd3bd46ada830488cb84bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e197f35637a222e3fe13bde183883a02') in 0.006548459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c6ac68bd1413d7a4b9c7777eaf3771b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-1_comp_light.exr using Guid(c6ac68bd1413d7a4b9c7777eaf3771b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dc91e57ff42365153043cd663956312') in 0.005846209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-1_comp_light.exr
+  artifactKey: Guid(c11fd1831df7b8545a164638fa870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-1_comp_light.exr using Guid(c11fd1831df7b8545a164638fa870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ccbecb91dd35c97a6c155648acc72ee') in 0.007197959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-1_comp_light.exr
+  artifactKey: Guid(9a44a2e22d01acf49b1f4e4f4455f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-1_comp_light.exr using Guid(9a44a2e22d01acf49b1f4e4f4455f93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb213f209be07bbc41469a8437f6f6d') in 0.00479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-1_comp_light.exr
+  artifactKey: Guid(8eac2e7b5de08794e9b2c3e4f24354c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-1_comp_light.exr using Guid(8eac2e7b5de08794e9b2c3e4f24354c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c1cdabb2a941304435f83f4cb1bffa9') in 0.005710708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-1_comp_light.exr
+  artifactKey: Guid(4ec175c6a685cbf4f80ca341323757ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-1_comp_light.exr using Guid(4ec175c6a685cbf4f80ca341323757ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26294f558027ba9ec0248edd0ea891c5') in 0.005070833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020725 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(2439d5b94923fbf4193ba428914d3193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-1_comp_shadowmask.png using Guid(2439d5b94923fbf4193ba428914d3193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e917a0bd706f623e22a7924003f354bc') in 0.006733333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(04e625760492dd84db8fff8bbbfb2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-1_comp_shadowmask.png using Guid(04e625760492dd84db8fff8bbbfb2708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45e0f4ee4c10ecdb744c9a44c1692e03') in 0.005517417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(dd2c29661e1fdef4b808f42fb8b6af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-1_comp_shadowmask.png using Guid(dd2c29661e1fdef4b808f42fb8b6af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13d920b00189efd00094fe098501658c') in 0.006677625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(d971bc6df97f7fc45915510de07b899b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-1_comp_shadowmask.png using Guid(d971bc6df97f7fc45915510de07b899b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '715df4a14a5b053c445d18f8d3741d67') in 0.006248375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(8f99b03971e0a6443a8467ab06d1c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-1_comp_shadowmask.png using Guid(8f99b03971e0a6443a8467ab06d1c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98b77abe683366c73db40b65d9542bb0') in 0.006457917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(6b62112baab55ef4bb78a4369f0bcf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-1_comp_shadowmask.png using Guid(6b62112baab55ef4bb78a4369f0bcf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2141fc1e2c306ce1c0547176cd744448') in 0.006042792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(348fe0ccc71d3064a9b126bba846dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-1_comp_shadowmask.png using Guid(348fe0ccc71d3064a9b126bba846dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb66fa010e5615053f9d5e741c7a0dcb') in 0.006030459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332534 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/LightingData.asset
+  artifactKey: Guid(0ec98e82cf7c0be4da529ebb24a51da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/LightingData.asset using Guid(0ec98e82cf7c0be4da529ebb24a51da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73105574307d4763fbf33c0e140d3601') in 0.001364167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001812 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/LightingData.asset
+  artifactKey: Guid(8f2af0f1e47944448bba709dac749484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/LightingData.asset using Guid(8f2af0f1e47944448bba709dac749484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d180c9b54b43dc2abd3d4123f85aff3') in 0.000950125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-0_comp_dir.png
+  artifactKey: Guid(1f68fbd3796fcb244bb647518607b5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-0_comp_dir.png using Guid(1f68fbd3796fcb244bb647518607b5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877b1c424db4b447dba77856cedcebd0') in 0.004642666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-0_comp_dir.png
+  artifactKey: Guid(335830df8ef586140acf8dcc42bb4293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-0_comp_dir.png using Guid(335830df8ef586140acf8dcc42bb4293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47d367424661761c093646711c02fb1f') in 0.004720625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-0_comp_dir.png
+  artifactKey: Guid(a69228b7af129a54daecdffb19942231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-0_comp_dir.png using Guid(a69228b7af129a54daecdffb19942231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c7e2741522122511c381e8b497f2bf3') in 0.00598425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4f309cf5b6b4939428be6d8ff18de104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-0_comp_dir.png using Guid(4f309cf5b6b4939428be6d8ff18de104) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84ca558eb4d978e0e83450c6b16fe3ef') in 0.005733208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-0_comp_dir.png
+  artifactKey: Guid(456c9a9d5ec2ac34d9753ccac97ae195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-0_comp_dir.png using Guid(456c9a9d5ec2ac34d9753ccac97ae195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f3361a4212e0d6bf53c2f84ed2a2072') in 0.004943958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229664 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/LightingData.asset
+  artifactKey: Guid(45c44f93c66dfca43a19fef8af64ac3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/LightingData.asset using Guid(45c44f93c66dfca43a19fef8af64ac3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fcefc2b8695b782634810cf27b806e') in 0.001409625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/LightingData.asset
+  artifactKey: Guid(e771cc05d87d47947901ef2310ecefae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/LightingData.asset using Guid(e771cc05d87d47947901ef2310ecefae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '814abdba66f894d898eb2a2eb1321ccf') in 0.000943917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/LightingData.asset
+  artifactKey: Guid(ded68cb3d5b16f44d8b3ff4dfe387824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/LightingData.asset using Guid(ded68cb3d5b16f44d8b3ff4dfe387824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b418e0e5ace017fe17578c579e7e9073') in 0.000901625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/LightingData.asset
+  artifactKey: Guid(745c454b220121d46bd92f19582775ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/LightingData.asset using Guid(745c454b220121d46bd92f19582775ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ceffce3e336c6f0f47f9eaa53954c15') in 0.001064834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/LightingData.asset
+  artifactKey: Guid(99f91ea08591c554db78b3ef3eeec5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/LightingData.asset using Guid(99f91ea08591c554db78b3ef3eeec5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f79ff7c7122570135c54ffc3337d4b') in 0.001000458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/LightingData.asset
+  artifactKey: Guid(909473a18ad16834ca65bfebe4d2e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/LightingData.asset using Guid(909473a18ad16834ca65bfebe4d2e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2ac26a0966b4daec629f2b976722e9c') in 0.001071667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025340 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/CustomFunctions/GetMainLight.hlsl
+  artifactKey: Guid(bc7646a559f526544bbc2d76d4ea3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/CustomFunctions/GetMainLight.hlsl using Guid(bc7646a559f526544bbc2d76d4ea3feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74af0c38d984fa2ea00a1548f8328bf0') in 0.000797417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012643 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night.mat
+  artifactKey: Guid(812736d1a7db40442b2c0c1560a3960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night.mat using Guid(812736d1a7db40442b2c0c1560a3960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '624cd29abd6185257d7ec9a97d8a706f') in 0.05908375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3.mat
+  artifactKey: Guid(e3f20f6a09b1dc148b05eb4716793670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3.mat using Guid(e3f20f6a09b1dc148b05eb4716793670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f03ac609fc9683dcc89223c0c252d4') in 0.02393975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night.mat
+  artifactKey: Guid(a23a52467ba0f1c42b929fcf7d7fc42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night.mat using Guid(a23a52467ba0f1c42b929fcf7d7fc42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36ccd0d09733db2226b34d90f612e196') in 0.019762916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.677837 seconds.
+  path: Assets/WG Free Skies
+  artifactKey: Guid(b720c055e86e767479d4fa6334174801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies using Guid(b720c055e86e767479d4fa6334174801) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65983e939fb5fec0ce15c7fe196edb02') in 0.000322709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.920690 seconds.
+  path: Assets/WG Free Skies/Skyboxes
+  artifactKey: Guid(631269855a785fd458291fcdafe4c65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes using Guid(631269855a785fd458291fcdafe4c65a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e52ff0e6541e68e25258c45f9a862413') in 0.0003195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.363082 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night
+  artifactKey: Guid(6865ed31aec08d4428c8deecb1daf947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night using Guid(6865ed31aec08d4428c8deecb1daf947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ca2603e481a7a01226e1ae517c970df') in 0.000416667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.963912 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night
+  artifactKey: Guid(63a501e62d0806e488616620df1885ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night using Guid(63a501e62d0806e488616620df1885ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a094ccb99d3dd52202c00abbcd6cb68a') in 0.000431333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065899 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/ReflectionProbe-0.exr
+  artifactKey: Guid(02e8399dc1ef27046a199c2279157adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/ReflectionProbe-0.exr using Guid(02e8399dc1ef27046a199c2279157adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf64bd35372a5560f2c20751564bdf1') in 0.008591542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.957316 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2
+  artifactKey: Guid(a505812b024f72441a0c9470316c64e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2 using Guid(a505812b024f72441a0c9470316c64e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '417bed08ab53d85290f77095be5cba14') in 0.000374916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049714 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2.mat
+  artifactKey: Guid(942493cf236285a4cb5cf27507420d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2.mat using Guid(942493cf236285a4cb5cf27507420d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b03afb067c6fd10eb87bb9a0bd5816cc') in 0.00850425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.202725 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2
+  artifactKey: Guid(9eb05cc0ce183894cbceb8c7313bd27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2 using Guid(9eb05cc0ce183894cbceb8c7313bd27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b188fdc81cbb723e324488ebc2f20d69') in 0.000443916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075298 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/ReflectionProbe-0.exr
+  artifactKey: Guid(f2c34b37bff4f21429a32575dc4c1144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/ReflectionProbe-0.exr using Guid(f2c34b37bff4f21429a32575dc4c1144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '030b56f3e5530cacf6a9f9a9575ef521') in 0.006542208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 992.368110 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise
+  artifactKey: Guid(d473d8aa674f57e409754b8c448559bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise using Guid(d473d8aa674f57e409754b8c448559bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba7d506aec110725cd9baf074689d68c') in 0.000342666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094279 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise.mat
+  artifactKey: Guid(a5e53219bb8fec94885db7578a08a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise.mat using Guid(a5e53219bb8fec94885db7578a08a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4513c44d58b3c0a6dd953a3b865806d0') in 0.018387375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.861735 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset
+  artifactKey: Guid(a0b26cd9817a6ef47a6f0d5af6bf75ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset using Guid(a0b26cd9817a6ef47a6f0d5af6bf75ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7ff90207a91c9b0fd85e34ff3ea9c21') in 0.000389208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085778 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset.mat
+  artifactKey: Guid(57d7d62b16e466746967cd38292089c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset.mat using Guid(57d7d62b16e466746967cd38292089c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f2307f3d7b4e9839f5a9b5cb5ff6b41') in 0.00811425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.243377 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset
+  artifactKey: Guid(6ce3e29ff672ec54b9ec71ca659be41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset using Guid(6ce3e29ff672ec54b9ec71ca659be41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30753b7daf86a70dda99c4ec3905f0de') in 0.00036625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097102 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/ReflectionProbe-0.exr
+  artifactKey: Guid(de4a60303373dd747a34dcd88d0a0409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/ReflectionProbe-0.exr using Guid(de4a60303373dd747a34dcd88d0a0409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c879e1de1131ac4acbc3a6b8d729890') in 0.005967958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.483753 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1
+  artifactKey: Guid(cb7aaaf5ff712434c892ce228ab67aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1 using Guid(cb7aaaf5ff712434c892ce228ab67aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12efef97c32ceac0f2b13b26a08cc387') in 0.000399959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111600 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning.mat
+  artifactKey: Guid(f6c22da9b5c9e484db6eefcbb8c11f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning.mat using Guid(f6c22da9b5c9e484db6eefcbb8c11f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f41b70f570bd8c1f0ee0e6280bdb3d') in 0.018453292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.973673 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1.unity
+  artifactKey: Guid(88800e18efc551a46899721d280bdf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1.unity using Guid(88800e18efc551a46899721d280bdf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a1df7f163cb4add395d8a975a329d1') in 0.000378666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583396 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1
+  artifactKey: Guid(e3e9dc5758c0e764ba7c3c1c196503cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1 using Guid(e3e9dc5758c0e764ba7c3c1c196503cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c12440f307fab6ddd3a407917529e67') in 0.000314125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076637 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/ReflectionProbe-0.exr
+  artifactKey: Guid(3a7dda91a632bac4fb4ae416529c517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/ReflectionProbe-0.exr using Guid(3a7dda91a632bac4fb4ae416529c517e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '878bf7785970d15290e1279e07dbc43b') in 0.006050958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.260735 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3
+  artifactKey: Guid(743bf7e2cd8f63d4f817ec9ca87cfafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3 using Guid(743bf7e2cd8f63d4f817ec9ca87cfafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6add6a39cda41c8d3288f284c2ea4718') in 0.0003815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051705 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3.mat
+  artifactKey: Guid(a073cb57491dcaf4a821ae1bc230f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3.mat using Guid(a073cb57491dcaf4a821ae1bc230f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23979ddf957a9a018feb0dbf6290d3a4') in 0.018206417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.515173 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3
+  artifactKey: Guid(b0cab4e50b41fd94ca266ce9ea5e0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3 using Guid(b0cab4e50b41fd94ca266ce9ea5e0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60516aa0744bb65382f1b2844a145580') in 0.000359458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362889 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/ReflectionProbe-0.exr
+  artifactKey: Guid(f4645a4c12ed28144a9f1631750329ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/ReflectionProbe-0.exr using Guid(f4645a4c12ed28144a9f1631750329ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ed0454b2b7ba07cfe750d3b6705b871') in 0.007175041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.611793 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1
+  artifactKey: Guid(d2d793ff30697704b8cb6d0751978dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1 using Guid(d2d793ff30697704b8cb6d0751978dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c1b984ed8130c00d65cb48ce06e527e') in 0.000342292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.933326 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2
+  artifactKey: Guid(3c8ac5f9a51e5864ba1905bd6b2810f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2 using Guid(3c8ac5f9a51e5864ba1905bd6b2810f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af5a244c1d4c6be2fc7e04696f94a1df') in 0.000336292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.765811 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3
+  artifactKey: Guid(62bc10f87197c774a82786c30408970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3 using Guid(62bc10f87197c774a82786c30408970f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fdea5c8d432c3c569f9e2d470bd44fe') in 0.000331208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.376948 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies
+  artifactKey: Guid(7e7c00b882d3cdf4ebc5952e417c4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies using Guid(7e7c00b882d3cdf4ebc5952e417c4b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebcc65b86ec837338cdefbce8457f098') in 0.000352125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313738 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies.mat
+  artifactKey: Guid(59327ee42aff6f34ba35acc3fc8794a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies.mat using Guid(59327ee42aff6f34ba35acc3fc8794a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83bc1de7ef9e442f405119927c67521d') in 0.021181459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.048676 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies
+  artifactKey: Guid(cc0b5544db8a813479fdcfceea222cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies using Guid(cc0b5544db8a813479fdcfceea222cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2eecee1a2349dbf3833ec018433c7c') in 0.000340667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076544 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/ReflectionProbe-0.exr
+  artifactKey: Guid(b0f3815d6fcfb0943953fa4095ab325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/ReflectionProbe-0.exr using Guid(b0f3815d6fcfb0943953fa4095ab325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5745469b35c32dd3bee269e863415886') in 0.005713459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.620065 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Materials
+  artifactKey: Guid(bea4f9535786a442b9c0d0c71a639b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Materials using Guid(bea4f9535786a442b9c0d0c71a639b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '954676e262f98194171b719085804d00') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085816 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Materials/ReflectionProbe-1.mat
+  artifactKey: Guid(6c77e702f310e4750b61289530d3c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Materials/ReflectionProbe-1.mat using Guid(6c77e702f310e4750b61289530d3c2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b21eabe9a2dcfddaaa1834910a86f103') in 0.005213375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.092295 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies
+  artifactKey: Guid(92db8acefe42321419a52b4b9ed713ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies using Guid(92db8acefe42321419a52b4b9ed713ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66d64a36a8c8e659b7aec5b25e5f2488') in 0.000338875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075591 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies.mat
+  artifactKey: Guid(f204a17fe175df34bbd66a14a0f431a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies.mat using Guid(f204a17fe175df34bbd66a14a0f431a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e85a8f1cca62dcfe74e63bcb6ed77d2b') in 0.0185865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.341688 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies
+  artifactKey: Guid(d200237ec6c37fa4b9815a9bcad86ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies using Guid(d200237ec6c37fa4b9815a9bcad86ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c97f8c319560e1126ec8965c86a98a5a') in 0.000401792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.619528 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/ReflectionProbe-0.exr
+  artifactKey: Guid(7aa94165096c0a840801f61c22fcd74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/ReflectionProbe-0.exr using Guid(7aa94165096c0a840801f61c22fcd74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9c262fac7c6653ef8c9a946ddffc97f') in 0.006100917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.273031 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures
+  artifactKey: Guid(93c607f243d9b804fbb49437a8e4be1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures using Guid(93c607f243d9b804fbb49437a8e4be1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee8d7e8287c264b190f0dd531b4487ca') in 0.000370083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039863 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Cloudy Moon Rise.exr
+  artifactKey: Guid(f3386f06b06583e4297cdba27f5147a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Cloudy Moon Rise.exr using Guid(f3386f06b06583e4297cdba27f5147a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8b55dac8c3e9e17da7fc5bbd1dac353') in 0.018535167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Cool Cloudy Morning 1.exr
+  artifactKey: Guid(fc92d93258b1f10489f68efc6288d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Cool Cloudy Morning 1.exr using Guid(fc92d93258b1f10489f68efc6288d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb9b30d9f05c77c4a4031ec4424df2af') in 0.020979167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Starmap_8k.exr
+  artifactKey: Guid(a0cbe7ae2f467a446994e2783598afa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Starmap_8k.exr using Guid(a0cbe7ae2f467a446994e2783598afa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '501f4303bfab3d5ddf38473ba6b7d444') in 0.062213625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.085038 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox
+  artifactKey: Guid(ed5a3b05664ef9c4b9a587627d8feb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox using Guid(ed5a3b05664ef9c4b9a587627d8feb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f115427f8e58c20bec5a337d3ad30106') in 0.000322333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073286 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Skybox.mat
+  artifactKey: Guid(6f190f1a17d830d4ba4e6afcc8dd79b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Skybox.mat using Guid(6f190f1a17d830d4ba4e6afcc8dd79b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'Wreckreation Games/Procedural Skybox': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl'. at Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Shaders/Procedural Skybox.shader(87)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+Shader error in 'Wreckreation Games/Procedural Skybox': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl'. at Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Shaders/Procedural Skybox.shader(87)
+
+Compiling Subshader: 0, Pass: Universal Forward, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_NEEDS_RENDERPASS_FBFETCH_FALLBACK UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _SAMPLE_GI
+ -> (artifact id: 'f8c82f5634b7c500846ffecc5461db59') in 0.057625375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.372228 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night
+  artifactKey: Guid(92cd3cf58d6b39a4190f66eca513426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night using Guid(92cd3cf58d6b39a4190f66eca513426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32ebb5ce1eb8098c972b1f6d1ec715e0') in 0.000344792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104633 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/ReflectionProbe-0.exr
+  artifactKey: Guid(00a4e69162510804cb04d1dbda592c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/ReflectionProbe-0.exr using Guid(00a4e69162510804cb04d1dbda592c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6deaf79cb6087a942afb30701ccca00c') in 0.005547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
