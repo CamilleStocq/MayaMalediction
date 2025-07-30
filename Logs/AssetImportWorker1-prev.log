@@ -7,7 +7,7 @@ Darwin version:          22.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        32768 MB
-Date:                    2025-07-18T12:13:14Z
+Date:                    2025-07-27T10:13:28Z
 Using pre-set license
 Pro License: YES
 
@@ -23,7 +23,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51221
+50991
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,12 +68,12 @@ Successfully changed project path to: /Users/camille/Desktop/projet fin forma/Te
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8406958400]  Target information:
+Player connection [8021360960]  Target information:
 
-Player connection [8406958400]  * "[IP] 192.168.129.17 [Port] 0 [Flags] 2 [Guid] 2370102813 [EditorId] 2370102813 [Version] 1048832 [Id] OSXEditor(0,Campink) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8021360960]  * "[IP] 192.168.129.17 [Port] 0 [Flags] 2 [Guid] 2983690831 [EditorId] 2983690831 [Version] 1048832 [Id] OSXEditor(0,Campink) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8406958400] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8406958400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8021360960] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8021360960] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.11f1 (9b156bbbd4df)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -100,27 +100,27 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56885
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56718
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.000781 seconds.
-- Loaded All Assemblies, in  0.286 seconds
+Registered in 0.000607 seconds.
+- Loaded All Assemblies, in  0.288 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 96 ms
+Android Extension - Scanning For ADB Devices 88 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.497 seconds
-Domain Reload Profiling: 783ms
-	BeginReloadAssembly (58ms)
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 799ms
+	BeginReloadAssembly (59ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -129,24 +129,24 @@ Domain Reload Profiling: 783ms
 	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (58ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (59ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
+		AnalyzeDomain (145ms)
 			TypeCache.Refresh (143ms)
 				TypeCache.ScanAssembly (132ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (497ms)
+	FinalizeReload (511ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (462ms)
+		SetupLoadedEditorAssemblies (474ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (238ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (104ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			InitializePlatformSupportModulesInManaged (239ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -156,53 +156,2267 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.556 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.642 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.688 seconds
-Domain Reload Profiling: 1244ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
+		CreateAndSetChildDomain (35ms)
 	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (363ms)
-		LoadAssemblies (208ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (197ms)
-			TypeCache.Refresh (160ms)
-				TypeCache.ScanAssembly (143ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (146ms)
 			BuildScriptInfoCaches (31ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (688ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
+		SetupLoadedEditorAssemblies (613ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (332ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.1.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4503 unused Assets / (0.9 MB). Loaded Objects now: 4964.
-Memory consumption went from 87.5 MB to 86.6 MB.
-Total: 9.750250 ms (FindLiveObjects: 0.222416 ms CreateObjectMapping: 0.141959 ms MarkObjects: 8.557625 ms  DeleteObjects: 0.827667 ms)
+Unloading 4503 unused Assets / (1.2 MB). Loaded Objects now: 4966.
+Memory consumption went from 87.9 MB to 86.7 MB.
+Total: 10.638959 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.149000 ms MarkObjects: 9.124417 ms  DeleteObjects: 1.132500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 4380.967970 seconds.
+  path: Assets/Scenes/assets/coffre.fbx
+  artifactKey: Guid(a9d07c6514fff4ae9b5740b418620f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/assets/coffre.fbx using Guid(a9d07c6514fff4ae9b5740b418620f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1198a4a05dc6da19987cb70ef26aafe') in 0.339090084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4469 unused Assets / (1.1 MB). Loaded Objects now: 5016.
+Memory consumption went from 88.7 MB to 87.6 MB.
+Total: 10.715333 ms (FindLiveObjects: 0.253041 ms CreateObjectMapping: 0.140375 ms MarkObjects: 9.497250 ms  DeleteObjects: 0.824041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1633.889790 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain2Data.asset
+  artifactKey: Guid(9d93ea9e43c34ea41b713f98703dc7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain2Data.asset using Guid(9d93ea9e43c34ea41b713f98703dc7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '603c28cee13839653f1695f2b1d40993') in 0.022563167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain4Data.asset
+  artifactKey: Guid(1d3a46a1166735345a8d6e48b7e55397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain4Data.asset using Guid(1d3a46a1166735345a8d6e48b7e55397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26288d754a2241f44a2e61b83ca1a366') in 0.007748459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain6Data.asset
+  artifactKey: Guid(5d8ed1d76f5367c418c441b67ae4886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/Terrain6Data.asset using Guid(5d8ed1d76f5367c418c441b67ae4886c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4af0073528b881d96771492ef7a678bb') in 0.007588834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_59bea5d5-dc37-45a8-80a9-c730e23528a2.asset
+  artifactKey: Guid(6bced41be4e70a746afa2f05f26d5372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_59bea5d5-dc37-45a8-80a9-c730e23528a2.asset using Guid(6bced41be4e70a746afa2f05f26d5372) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ad19c744c28b7688b91cf253774fd49') in 0.005890625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_f1b232cc-dc06-44b6-abc6-adec7ee45741.asset
+  artifactKey: Guid(3608bd2c665e84d499103540ba618b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Terrain/TerrainData_f1b232cc-dc06-44b6-abc6-adec7ee45741.asset using Guid(3608bd2c665e84d499103540ba618b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b2287b3f8fc8842eb4d6b815741191b') in 0.006087208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.400439 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/IceEnvironment.prefab
+  artifactKey: Guid(b1e687bc32bb05e468f010a2d3f35fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/IceEnvironment.prefab using Guid(b1e687bc32bb05e468f010a2d3f35fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '954318af2794a4009dfaa1f5bf7956ff') in 0.060255833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/Reflection.prefab
+  artifactKey: Guid(2ccddb73ae5aa7d409c8badcd5c79a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/Reflection.prefab using Guid(2ccddb73ae5aa7d409c8badcd5c79a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8193368b98613918ae0249beada31421') in 0.001655125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/SeaEnvironmentRealistic.prefab
+  artifactKey: Guid(3272c15bba99bb1489001101107bc863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/SeaEnvironmentRealistic.prefab using Guid(3272c15bba99bb1489001101107bc863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '964478435f843df06040f799d3e9aac6') in 0.016471708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/PoisonEnvironment.prefab
+  artifactKey: Guid(bcc033eb924ab994caa095cff5b4cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Prefabs/PoisonEnvironment.prefab using Guid(bcc033eb924ab994caa095cff5b4cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e185c8ccace8ccf5207911ff368c3dc9') in 0.017817708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.045989 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/InterpolateHSV.hlsl
+  artifactKey: Guid(51c4f325e435fdd4187eaa3ec9fc9e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Shader/HLSL/InterpolateHSV.hlsl using Guid(51c4f325e435fdd4187eaa3ec9fc9e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61dc2a98653a321c8ee5dc3761f4260f') in 0.001235458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.447792 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/cubemap_layout.png
+  artifactKey: Guid(85c7499f413f8534e82ce680324014dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/cubemap_layout.png using Guid(85c7499f413f8534e82ce680324014dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8ac09b11e15ca2a24d3c9933ac2443b') in 0.00542875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/nx.png
+  artifactKey: Guid(9db2aa5b9275a9048b7a4d9eb51c7c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/nx.png using Guid(9db2aa5b9275a9048b7a4d9eb51c7c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba0ed897bc284e601eed31b59e75b18f') in 0.004135334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/nz.png
+  artifactKey: Guid(852d0755fc48c9f44bb041ca61a37990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/nz.png using Guid(852d0755fc48c9f44bb041ca61a37990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb8f65012cfbacdce73a5f1325815a82') in 0.01263925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/px.png
+  artifactKey: Guid(2b17b2228b61a054ebdb581ccd0d8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/px.png using Guid(2b17b2228b61a054ebdb581ccd0d8d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e44429670af741aa92e9af00a31d0863') in 0.00360225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/pz.png
+  artifactKey: Guid(2ba6f43ef5370d245a4fe971eb895b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/pz.png using Guid(2ba6f43ef5370d245a4fe971eb895b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c46ad785014030bd8d10d121c83adda4') in 0.003853292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/py 2.png
+  artifactKey: Guid(45635cc739d778f4aae96151f40c58db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/py 2.png using Guid(45635cc739d778f4aae96151f40c58db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5698f81e8e49c471b9558405818c470') in 0.009560959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/py.png
+  artifactKey: Guid(85366bdf141e5b4479dfeb8854978eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/py.png using Guid(85366bdf141e5b4479dfeb8854978eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a5b7d914de57ebf0adfa64c536bea62') in 0.00371075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/SkyboxAtardecer.mat
+  artifactKey: Guid(aad3858511db4ba41b1a33d378f3227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Skybox/SkyboxAtardecer.mat using Guid(aad3858511db4ba41b1a33d378f3227e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef13960f18fbfec78753e10f51c8a94d') in 0.370150625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.552768 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock/TCom_Rock_CliffVolcanic_2K_albedo (1).tif
+  artifactKey: Guid(3e03e95edb41c4d498c6fb226b5d4b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Rock/TCom_Rock_CliffVolcanic_2K_albedo (1).tif using Guid(3e03e95edb41c4d498c6fb226b5d4b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b936e1ef08c698f75e7b2c3c09771b') in 0.00774025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.997684 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/BeachBall/BeachBallTexture1.png
+  artifactKey: Guid(d990135589b3481488cf6208a67a1d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/BeachBall/BeachBallTexture1.png using Guid(d990135589b3481488cf6208a67a1d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4879ce47f140896066360bd4b5831ef4') in 0.004320208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.713965 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_disp_2k.png
+  artifactKey: Guid(fa63a39bd50829244b2182ce20bfaef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_disp_2k.png using Guid(fa63a39bd50829244b2182ce20bfaef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8db80054d4fcc7504576ed526b8c9a4c') in 0.00579775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_nor_gl_2k.exr
+  artifactKey: Guid(b3e7844cbaefa474c8d764f3afa2d494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/CrackedFloor/cracked_concrete_nor_gl_2k.exr using Guid(b3e7844cbaefa474c8d764f3afa2d494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2d8087fb3e76ce520536a508be3453b') in 0.058092958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.296458 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_disp_2k.png
+  artifactKey: Guid(9c73ae34c73da184f8380734d98d62f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_disp_2k.png using Guid(9c73ae34c73da184f8380734d98d62f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cc68a6427209977a512249d802ac1a1') in 0.006414625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_rough_2k.exr
+  artifactKey: Guid(3ab7fd303c248ba43b78213d14cfef16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/MossyRock/mossy_rock_rough_2k.exr using Guid(3ab7fd303c248ba43b78213d14cfef16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c9322ef3f443898c83c1b2a503c9921') in 0.007489875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.853607 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/cavesTex.png
+  artifactKey: Guid(cc833db1ba1caeb4bb10ff0a50364204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/cavesTex.png using Guid(cc833db1ba1caeb4bb10ff0a50364204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7185582917a3cdd783601add95994c1a') in 0.005472125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/voronoi.png
+  artifactKey: Guid(c131cda12ace161478bdfac7d5b335cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/voronoi.png using Guid(c131cda12ace161478bdfac7d5b335cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7aeec2a4bce83058df5b73b2b98afcd') in 0.005817583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/TCom_Gore_2K_normal.tif
+  artifactKey: Guid(4788f2bd60294f241b05bba627dc673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/TCom_Gore_2K_normal.tif using Guid(4788f2bd60294f241b05bba627dc673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67fcce862962c7df01210f6c1b868633') in 0.006328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/VoronoiWater.png
+  artifactKey: Guid(bdd1cbdd2c923164980eae84b3bcf7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/VoronoiWater.png using Guid(bdd1cbdd2c923164980eae84b3bcf7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb30ff920b26cd1ce8d18c2561d0e948') in 0.005726208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/voronoiAguaSubstance2 1.png
+  artifactKey: Guid(201c88b071ee1ab49a42d47a51409268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/voronoiAguaSubstance2 1.png using Guid(201c88b071ee1ab49a42d47a51409268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eebd3377751c20de296b321fab31def8') in 0.005140125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/oceanNormalMap.png
+  artifactKey: Guid(4d05f2fcdedc26a45bfd85622f986c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Procedural/oceanNormalMap.png using Guid(4d05f2fcdedc26a45bfd85622f986c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc7ea57c90d3d7b991e8b67ffee9678') in 0.004842375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.241787 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_color_2k.png
+  artifactKey: Guid(1276b68f4507b2a4d96a97410953a5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_color_2k.png using Guid(1276b68f4507b2a4d96a97410953a5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95f476d68882dfb34bb3dd499873cdf1') in 0.005573333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_height_2k.png
+  artifactKey: Guid(cb7b0310dd9f7e042b905aafe533e58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_height_2k.png using Guid(cb7b0310dd9f7e042b905aafe533e58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75e3b0b310ac6f406281a811f56f5204') in 0.006474083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_normal_gl_2k.png
+  artifactKey: Guid(f84cb59bbb48ae64598970e49d22f667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/Snow/snow_01_normal_gl_2k.png using Guid(f84cb59bbb48ae64598970e49d22f667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0405842aa67be3f4ad0fa3028cff7910') in 0.00819175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.701960 seconds.
+  path: Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/MossyRock.terrainlayer
+  artifactKey: Guid(ff3be8f3830357047819cbb6e1481f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AureDevGames/Water Stylized Shader Orto & Perspective Camera/Textures/TerrainProfiles/MossyRock.terrainlayer using Guid(ff3be8f3830357047819cbb6e1481f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed50e6f172939f39e08ed65d983a316d') in 0.01264575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4469 unused Assets / (1.5 MB). Loaded Objects now: 5023.
+Memory consumption went from 90.0 MB to 88.5 MB.
+Total: 10.734542 ms (FindLiveObjects: 0.245875 ms CreateObjectMapping: 0.175291 ms MarkObjects: 9.008834 ms  DeleteObjects: 1.303708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a0a93000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (694ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4501 unused Assets / (1.0 MB). Loaded Objects now: 5022.
+Memory consumption went from 103.6 MB to 102.6 MB.
+Total: 10.359042 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.147875 ms MarkObjects: 9.044416 ms  DeleteObjects: 0.930500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0b47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.541 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (152ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4506 unused Assets / (2.2 MB). Loaded Objects now: 5026.
+Memory consumption went from 103.7 MB to 101.5 MB.
+Total: 10.981834 ms (FindLiveObjects: 0.292583 ms CreateObjectMapping: 0.149333 ms MarkObjects: 9.071959 ms  DeleteObjects: 1.467375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 494.605053 seconds.
+  path: Assets/AQUAS-Lite/Demo/Textures/Cliffs_normal.jpg
+  artifactKey: Guid(5e2137d62de0b4846ac0dd23bc393af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Demo/Textures/Cliffs_normal.jpg using Guid(5e2137d62de0b4846ac0dd23bc393af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e2a5f35ec204a08e97e7c5cafcb29b3') in 0.038161167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.002406 seconds.
+  path: Assets/AQUAS-Lite/Materials/AQUAS_Lite_Water_Backface.mat
+  artifactKey: Guid(6363f60797ab0fb49b1ff852b0978304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AQUAS-Lite/Materials/AQUAS_Lite_Water_Backface.mat using Guid(6363f60797ab0fb49b1ff852b0978304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dae2bc1cb93c7ac5e85ff0fcc98915b') in 0.310585208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ef97000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1382ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (746ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (207ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4505 unused Assets / (0.8 MB). Loaded Objects now: 5028.
+Memory consumption went from 102.2 MB to 101.4 MB.
+Total: 12.771042 ms (FindLiveObjects: 0.296541 ms CreateObjectMapping: 0.189625 ms MarkObjects: 11.121708 ms  DeleteObjects: 1.162416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a0953000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.513 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4505 unused Assets / (1.3 MB). Loaded Objects now: 5028.
+Memory consumption went from 100.3 MB to 99.0 MB.
+Total: 10.888708 ms (FindLiveObjects: 0.308833 ms CreateObjectMapping: 0.178958 ms MarkObjects: 9.350125 ms  DeleteObjects: 1.050042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 785.173383 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-0_comp_dir.png
+  artifactKey: Guid(fa72b97d9e2639f458677f545aa62ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-0_comp_dir.png using Guid(fa72b97d9e2639f458677f545aa62ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a906d34a83fb384775b1f5101c98cb8') in 0.036003917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-1_comp_dir.png
+  artifactKey: Guid(5e69901ef2f909d40a439e1f935c2152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-1_comp_dir.png using Guid(5e69901ef2f909d40a439e1f935c2152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9074e1858d572bff1b2dd30a92b95125') in 0.004736166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(b1fafb8aec991634f9520bd38d3ef36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-0_comp_shadowmask.png using Guid(b1fafb8aec991634f9520bd38d3ef36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1662c6ebfd960d1dd2c5a58adef14c98') in 0.007991167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(111a2cfd28c1e2c4cb89aeb500315a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-0_comp_shadowmask.png using Guid(111a2cfd28c1e2c4cb89aeb500315a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35f3b6dc2557ccf5650018afb3ba339b') in 0.006679959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-0_comp_light.exr
+  artifactKey: Guid(691aa8eb47a70454d938060367db1aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-0_comp_light.exr using Guid(691aa8eb47a70454d938060367db1aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b307c9ccfd0d214f3dfeb62aa23513d') in 0.055635042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-0_comp_light.exr
+  artifactKey: Guid(1506aa1c08362e3419172ee7853775b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-0_comp_light.exr using Guid(1506aa1c08362e3419172ee7853775b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c9e682616fb3f3c2441b7b9c5e4581b') in 0.004579291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-1_comp_dir.png
+  artifactKey: Guid(aa8ba022430ff8f4690a5f1e988ef474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-1_comp_dir.png using Guid(aa8ba022430ff8f4690a5f1e988ef474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd824588fa52fb12b819a49c71af8a09') in 0.004386333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-1_comp_light.exr
+  artifactKey: Guid(09079c4c0bfefc34594a0e74819c4611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-1_comp_light.exr using Guid(09079c4c0bfefc34594a0e74819c4611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188b3cdf9a772010dd4e2a85cb242fd1') in 0.004501458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(9d485674adfc12f49b8dbd28141dc4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-0_comp_shadowmask.png using Guid(9d485674adfc12f49b8dbd28141dc4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aca652816865b4d62c6732f5e3e02f3') in 0.006057625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-1_comp_light.exr
+  artifactKey: Guid(669bc227675db184ebbdc63837231c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-1_comp_light.exr using Guid(669bc227675db184ebbdc63837231c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4f6b2c90a24c625b4e099fb53e1c337') in 0.00389425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(746254da4ac8e7a49b1ba7bffc10e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-0_comp_shadowmask.png using Guid(746254da4ac8e7a49b1ba7bffc10e17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71343e7477c91260bbea2a0d3e50330d') in 0.006797709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-0_comp_light.exr
+  artifactKey: Guid(936ffc77062400c42bf926d0f6586f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/Lightmap-0_comp_light.exr using Guid(936ffc77062400c42bf926d0f6586f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8a597cc851b79edafaaec23ca3a6bdc') in 0.004344875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-1_comp_dir.png
+  artifactKey: Guid(910c696d2335a03439396af79087111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-1_comp_dir.png using Guid(910c696d2335a03439396af79087111f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '876009bb40b7faf0745417f98bc55e0f') in 0.004393959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-0_comp_light.exr
+  artifactKey: Guid(4d7538505fc2ea741b0ad619192e2cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-0_comp_light.exr using Guid(4d7538505fc2ea741b0ad619192e2cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd144b4bd8c31deceed8a4cddfb5e9ced') in 0.004722416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-1_comp_dir.png
+  artifactKey: Guid(72d330910d3aae24782f7546d0f63591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-1_comp_dir.png using Guid(72d330910d3aae24782f7546d0f63591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b0c82ed572f0a66f589180e856ebc32') in 0.006020416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-1_comp_dir.png
+  artifactKey: Guid(435148949d32b1147b560da6d6691d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-1_comp_dir.png using Guid(435148949d32b1147b560da6d6691d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cebe5ca3476bdfb6fecd1d191f1011cc') in 0.004339625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-0_comp_light.exr
+  artifactKey: Guid(81cd727f57e3c9f458d85202171feaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-0_comp_light.exr using Guid(81cd727f57e3c9f458d85202171feaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2179fd996edbd63f4796fe6a06cada84') in 0.004779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(3fa08cc7b6174c04bb493275ab9dfb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-0_comp_shadowmask.png using Guid(3fa08cc7b6174c04bb493275ab9dfb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '727b0f92793fc8ad8604e4fe914df402') in 0.006642208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-0_comp_light.exr
+  artifactKey: Guid(ee45a99026196a94b8e4a18627a4183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/Lightmap-0_comp_light.exr using Guid(ee45a99026196a94b8e4a18627a4183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee28fd064e5e188daf29960094318ddb') in 0.006103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-0_comp_light.exr
+  artifactKey: Guid(cf34bf25f11569f4baae27bf84ef6538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-0_comp_light.exr using Guid(cf34bf25f11569f4baae27bf84ef6538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70361976724fc2d11d30a236073cfaa1') in 0.004902125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-1_comp_dir.png
+  artifactKey: Guid(2b38d32d0d05fd24ab58847b6fbb51a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/Lightmap-1_comp_dir.png using Guid(2b38d32d0d05fd24ab58847b6fbb51a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850096178ef4e4b9e7dcb824517eb72c') in 0.003891625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-1_comp_dir.png
+  artifactKey: Guid(938be0ee6a46b7a48a648f19f65ac1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-1_comp_dir.png using Guid(938be0ee6a46b7a48a648f19f65ac1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '655fa0522b3d134e9e58db8f37ace1ff') in 0.004357875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-0_comp_light.exr
+  artifactKey: Guid(b37f4f09300394948b61629004af619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-0_comp_light.exr using Guid(b37f4f09300394948b61629004af619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa50b097875d37c2314e36f9fcf72e7') in 0.004242709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.117949 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-1_comp_light.exr
+  artifactKey: Guid(f098f5dd497e1cd4aa8997b01a35d1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Lightmap-1_comp_light.exr using Guid(f098f5dd497e1cd4aa8997b01a35d1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862627e9a246e717fb3c2bcc8e8c01cd') in 0.006397084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-1_comp_light.exr
+  artifactKey: Guid(5190fd0cc50132b45842562858839b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-1_comp_light.exr using Guid(5190fd0cc50132b45842562858839b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a65da31d87f0a6b4a10aaac2c788c26') in 0.005604208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-1_comp_light.exr
+  artifactKey: Guid(211cc549b74dfc942b47d68cae537f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-1_comp_light.exr using Guid(211cc549b74dfc942b47d68cae537f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89954b601ab1a05fc292e920507a25b8') in 0.007325667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(0fcf46dce2de9fc4a9746d8b64c44ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-1_comp_shadowmask.png using Guid(0fcf46dce2de9fc4a9746d8b64c44ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b07628872909543f903a8ac8cf25b6f') in 0.005930166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-1_comp_light.exr
+  artifactKey: Guid(ab8d5b750dc3b96488a68b794385d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Lightmap-1_comp_light.exr using Guid(ab8d5b750dc3b96488a68b794385d5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c844efe27bd90ab8a12bffab5f196b') in 0.004767834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-1_comp_light.exr
+  artifactKey: Guid(d5efa7f6a507da343b3c8f9b83f6145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-1_comp_light.exr using Guid(d5efa7f6a507da343b3c8f9b83f6145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f375c87a37057fe1dcc66d581ed7036') in 0.005030959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020811 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(c3e4aa0ef2c49784cb8d7905f3466f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 3/Cool Cloudy Night 3/Lightmap-1_comp_shadowmask.png using Guid(c3e4aa0ef2c49784cb8d7905f3466f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a0bd22db1bb1062d07bb9328920d4c9') in 0.0065525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(597b89d2cd7f4d144ad503696a588a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-1_comp_shadowmask.png using Guid(597b89d2cd7f4d144ad503696a588a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54694e320f21ed04979712e346b76ceb') in 0.005838334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(668a0dfe31115694ea5ca7eb509aaa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Lightmap-1_comp_shadowmask.png using Guid(668a0dfe31115694ea5ca7eb509aaa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1070b19e496f4212bf9b6b3743555839') in 0.006649375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(f1ce1733159000c46b5d41ab9a87c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/Lightmap-1_comp_shadowmask.png using Guid(f1ce1733159000c46b5d41ab9a87c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd44a6d0e414e89274eb68e32a38b43ad') in 0.006190083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(93312cd35d810e1489d888e64926afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-1_comp_shadowmask.png using Guid(93312cd35d810e1489d888e64926afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53cde523971a7e23e752e4dc425319a7') in 0.006572958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(ee0b09d8e58c99046a5c624755d100c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Lightmap-1_comp_shadowmask.png using Guid(ee0b09d8e58c99046a5c624755d100c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccda84a84eab66578430d73911fbbb39') in 0.005980333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.342475 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-0_comp_dir.png
+  artifactKey: Guid(4673625b1a943de46a15963561367a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/Lightmap-0_comp_dir.png using Guid(4673625b1a943de46a15963561367a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93f5cefab7a997c173215825c23f6806') in 0.005189083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-0_comp_dir.png
+  artifactKey: Guid(06d7c61840a13b54fbaa2da7d2db7a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2/Lightmap-0_comp_dir.png using Guid(06d7c61840a13b54fbaa2da7d2db7a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '256ab844e28e038e6c6b8b7cab4e8aee') in 0.004648417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-0_comp_dir.png
+  artifactKey: Guid(18bd890231f9af849831b224daf4d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/Lightmap-0_comp_dir.png using Guid(18bd890231f9af849831b224daf4d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ade7ecef8d5b656d24152b579cfdc4a0') in 0.006062916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-0_comp_dir.png
+  artifactKey: Guid(50aefc3f84991754f89ebd25c022726f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural SunSet/Lightmap-0_comp_dir.png using Guid(50aefc3f84991754f89ebd25c022726f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2df2a7a6ff84bca101678de8acf30660') in 0.00617725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-0_comp_dir.png
+  artifactKey: Guid(ff595691260df7b46b58d54dbc8c413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 1/Cool Cloudy Night/Lightmap-0_comp_dir.png using Guid(ff595691260df7b46b58d54dbc8c413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '211a43d4f0c7ab94544b6aa77ade318c') in 0.004704125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.230077 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/LightingData.asset
+  artifactKey: Guid(ff1a17720ed229e4880c865b9dcad918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Day/LightingData.asset using Guid(ff1a17720ed229e4880c865b9dcad918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '887357f7f71db4a5be7ef068cdcb9e6f') in 0.001649542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/LightingData.asset
+  artifactKey: Guid(60449f3bda2c9e4459757fbe206fa375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/LightingData.asset using Guid(60449f3bda2c9e4459757fbe206fa375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e29e7d4cd85a553d0eb9469424ede44') in 0.000882792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/LightingData.asset
+  artifactKey: Guid(d5a39272904a66546a0a110ea683ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/LightingData.asset using Guid(d5a39272904a66546a0a110ea683ec0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aa3bdab765e761bc27b73d2f945a924') in 0.001030833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/LightingData.asset
+  artifactKey: Guid(834d160a238f1494aa01431058be6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Moon Rise/Cloudy Moon Rise/LightingData.asset using Guid(834d160a238f1494aa01431058be6e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5010684542eeb8f54f711d37eaaae375') in 0.00107825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/LightingData.asset
+  artifactKey: Guid(8f0b5aafd1ad5e24986a2f9d16e20ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/LightingData.asset using Guid(8f0b5aafd1ad5e24986a2f9d16e20ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cf8a89391be7f774cdc79df2fa082d8') in 0.000925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/LightingData.asset
+  artifactKey: Guid(cd573746dc32b564e96af00b76e28293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/LightingData.asset using Guid(cd573746dc32b564e96af00b76e28293) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dd0392be82dcbcdb144edbfa2f0f202') in 0.001056292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040722 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Clear Night.exr
+  artifactKey: Guid(93dde3c5f11210d42912d7ac1b2759d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Clear Night.exr using Guid(93dde3c5f11210d42912d7ac1b2759d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a42182562890c7920a9722970a19814') in 0.0823145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2.mat
+  artifactKey: Guid(83d062886c6728943a45a0b4228ee157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Night 2/Cool Cloudy Night 2.mat using Guid(83d062886c6728943a45a0b4228ee157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6f892ad9e5bd8aedebbdbfac9eabd62') in 0.018946709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.995469 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/ReflectionProbe-1.exr
+  artifactKey: Guid(85e023bf8437ed2468440294d0ccd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Clear Night/Clear Night/ReflectionProbe-1.exr using Guid(85e023bf8437ed2468440294d0ccd6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4398af959c9523087ebcbe89eb210232') in 0.005595416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.298799 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/ReflectionProbe-1.exr
+  artifactKey: Guid(c16e55d5b88e41f439b68b83dd32bf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/ReflectionProbe-1.exr using Guid(c16e55d5b88e41f439b68b83dd32bf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2d567546cb8d23c6241c64709a339c') in 0.005973167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 996.781544 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/ReflectionProbe-1.exr
+  artifactKey: Guid(d9482bb36b7c0e043af5719a53c67e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/ReflectionProbe-1.exr using Guid(d9482bb36b7c0e043af5719a53c67e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87fc789491a69cc4f4175dc867ed33f2') in 0.005420666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.251544 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/ReflectionProbe-1.exr
+  artifactKey: Guid(f070987211d57dd4dad69779e13a9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/ReflectionProbe-1.exr using Guid(f070987211d57dd4dad69779e13a9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b8324bccce34a354657e4ec1eeabf40') in 0.005492709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Sky and Fog Settings.asset
+  artifactKey: Guid(4782f9d627a7b21429c70fde88971aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 1/Cool Cloudy Morning 1/Sky and Fog Settings.asset using Guid(4782f9d627a7b21429c70fde88971aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aeeca11c7e4ba5b9791ede116a2d4c4e') in 0.00066425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.211148 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/ReflectionProbe-1.exr
+  artifactKey: Guid(77c63c2907c1f9840844b89cd8742756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3/ReflectionProbe-1.exr using Guid(77c63c2907c1f9840844b89cd8742756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c2af748df2a307161811de40df100f2') in 0.006749542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.153043 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/ReflectionProbe-1.exr
+  artifactKey: Guid(bdbedab16f269a245a269bdbaf749a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Dusk Clear Skies/Dusk Clear Skies/ReflectionProbe-1.exr using Guid(bdbedab16f269a245a269bdbaf749a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e6725ca8c14219c2caf7ad57d76424d') in 0.005302042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.863051 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/ReflectionProbe-1.exr
+  artifactKey: Guid(6559e724ccbeeb74ca935a9b32e501e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/ReflectionProbe-1.exr using Guid(6559e724ccbeeb74ca935a9b32e501e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db573620462cc7cd62dd5e8f78dad070') in 0.005690125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.314082 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Cloudy Sunset.exr
+  artifactKey: Guid(cdd4ce04940f8b241a3ef47bb4add3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Cloudy Sunset.exr using Guid(cdd4ce04940f8b241a3ef47bb4add3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc13ea6a50d62ccedf6fa9333548ab27') in 0.009797125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Dusk Clear Skies.exr
+  artifactKey: Guid(836f4eff45a5908448402062225ca9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Dusk Clear Skies.exr using Guid(836f4eff45a5908448402062225ca9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dc1f60b5d00a5fa3ab3f56ac1ce89eb') in 0.019435333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Cool Cloudy Morning 2.exr
+  artifactKey: Guid(243805e6a10f28040a7713bef4087257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Cool Cloudy Morning 2.exr using Guid(243805e6a10f28040a7713bef4087257) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '622c9cb70e3d7f40f3909bb20f9a992c') in 0.009083125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Sunset Clear Skies.exr
+  artifactKey: Guid(b5b8d2f39f81f9048b7c5387dbe48cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Sunset Clear Skies.exr using Guid(b5b8d2f39f81f9048b7c5387dbe48cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1d400ad04eceb46aedf04dc89c6a8d5') in 0.01832925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Textures/Cool Cloudy Morning 3.exr
+  artifactKey: Guid(bb9c4daa05812a640b92cb796bd66647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Textures/Cool Cloudy Morning 3.exr using Guid(bb9c4daa05812a640b92cb796bd66647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e02a77607a2be2ecb16b34c569c1f802') in 0.020279125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.725919 seconds.
+  path: Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/ReflectionProbe-1.exr
+  artifactKey: Guid(43ff4dd96e44b3841a38e86ee7a48e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/URP Procedural Skybox/Procedural Night/ReflectionProbe-1.exr using Guid(43ff4dd96e44b3841a38e86ee7a48e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bf87ee5139c68396d28673f8e6cd384') in 0.005018708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0b47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.556 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.720 seconds
+Domain Reload Profiling: 1277ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (611ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4506 unused Assets / (1.7 MB). Loaded Objects now: 5032.
+Memory consumption went from 100.1 MB to 98.4 MB.
+Total: 10.682792 ms (FindLiveObjects: 0.269750 ms CreateObjectMapping: 0.149250 ms MarkObjects: 9.257959 ms  DeleteObjects: 1.004958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 35792.739311 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3.mat
+  artifactKey: Guid(a073cb57491dcaf4a821ae1bc230f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 3/Cool Cloudy Morning 3.mat using Guid(a073cb57491dcaf4a821ae1bc230f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f8d89f33c1af230fced13ee41ff630f') in 0.0712415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/WG Free Skies/Art/Materials/Dark Grey.mat
+  artifactKey: Guid(02af9b97db0584749b00f6f19140311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Art/Materials/Dark Grey.mat using Guid(02af9b97db0584749b00f6f19140311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fde2af5c53f22ab512a0a7b01f95d265') in 0.01080025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.425346 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Materials/ReflectionProbe-1.mat
+  artifactKey: Guid(9ae3f695b4fdf4f1a9814415cace31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Sunset Clear Skies/Sunset Clear Skies/Materials/ReflectionProbe-1.mat using Guid(9ae3f695b4fdf4f1a9814415cace31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57e033c80b1d6c4f656df89c81aab9e1') in 0.006063959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029874 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Materials/ReflectionProbe-1.mat
+  artifactKey: Guid(a3916d60500c14af7842a3156e1cd63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cool Cloudy Morning 2/Cool Cloudy Morning 2/Materials/ReflectionProbe-1.mat using Guid(a3916d60500c14af7842a3156e1cd63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0061f8881f5408eab809b353c2a4abe5') in 0.005443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079108 seconds.
+  path: Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Materials/ReflectionProbe-1.mat
+  artifactKey: Guid(6a3a4f8cea9da413485b43b4c07c9cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WG Free Skies/Skyboxes/Cloudy Sunset/Cloudy Sunset/Materials/ReflectionProbe-1.mat using Guid(6a3a4f8cea9da413485b43b4c07c9cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59ccb15c6952681e922a5c9536c6fe94') in 0.0055285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.630316 seconds.
+  path: Assets/scene/ReflectionProbe-0.exr
+  artifactKey: Guid(6b9a1ecdb89c74c20b23e21cc3e145f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scene/ReflectionProbe-0.exr using Guid(6b9a1ecdb89c74c20b23e21cc3e145f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba2fcd3c76d58b7e813b2d692e9a94b1') in 0.013419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.847766 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Grass608c3929b87867c.terrainlayer
+  artifactKey: Guid(e3a8618b3dc1d4dcf8ee2a1673c7b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Grass608c3929b87867c.terrainlayer using Guid(e3a8618b3dc1d4dcf8ee2a1673c7b63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd349d3a3e2b474022ba58050e47e0e7b') in 0.008986625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_RockGrassy608c3929b87867c.terrainlayer
+  artifactKey: Guid(a92a49f9abb3944c0b6afdb26fd3851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_RockGrassy608c3929b87867c.terrainlayer using Guid(a92a49f9abb3944c0b6afdb26fd3851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b20e7bf9ada81843f37675feafb4775') in 0.00445825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 5.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (2.0 MB). Loaded Objects now: 5034.
+Memory consumption went from 87.8 MB to 85.9 MB.
+Total: 11.314542 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.154583 ms MarkObjects: 9.613583 ms  DeleteObjects: 1.282625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0b47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1276ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (265ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (700ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.5 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.4 MB.
+Total: 9.670000 ms (FindLiveObjects: 0.244875 ms CreateObjectMapping: 0.147625 ms MarkObjects: 8.367667 ms  DeleteObjects: 0.909167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (2.0 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 85.8 MB.
+Total: 10.147500 ms (FindLiveObjects: 0.238875 ms CreateObjectMapping: 0.143584 ms MarkObjects: 8.779042 ms  DeleteObjects: 0.985333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0b47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.548 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.768 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.7 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.331666 ms (FindLiveObjects: 0.254417 ms CreateObjectMapping: 0.147833 ms MarkObjects: 8.767209 ms  DeleteObjects: 1.161916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a0a47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1280ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.5 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.5 MB.
+Total: 11.883125 ms (FindLiveObjects: 0.286375 ms CreateObjectMapping: 0.166542 ms MarkObjects: 10.172375 ms  DeleteObjects: 1.257041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ef97000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1199ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.1 MB.
+Total: 10.388791 ms (FindLiveObjects: 0.254417 ms CreateObjectMapping: 0.150041 ms MarkObjects: 8.833500 ms  DeleteObjects: 1.150083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0c53000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (817ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.7 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.3 MB.
+Total: 12.200250 ms (FindLiveObjects: 0.314208 ms CreateObjectMapping: 0.167167 ms MarkObjects: 10.315542 ms  DeleteObjects: 1.402500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0c53000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.519 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1306ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (786ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (672ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.491917 ms (FindLiveObjects: 0.293250 ms CreateObjectMapping: 0.157958 ms MarkObjects: 9.093625 ms  DeleteObjects: 0.946458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.6 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.2 MB.
+Total: 10.668000 ms (FindLiveObjects: 0.251750 ms CreateObjectMapping: 0.151666 ms MarkObjects: 9.234500 ms  DeleteObjects: 1.029500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b47d3000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1230ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.5 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.5 MB.
+Total: 9.891417 ms (FindLiveObjects: 0.248959 ms CreateObjectMapping: 0.164416 ms MarkObjects: 8.484625 ms  DeleteObjects: 0.993042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 85.9 MB.
+Total: 10.783750 ms (FindLiveObjects: 0.281583 ms CreateObjectMapping: 0.146584 ms MarkObjects: 9.116792 ms  DeleteObjects: 1.238250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ef97000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling: 1267ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (615ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.157917 ms (FindLiveObjects: 0.250417 ms CreateObjectMapping: 0.147625 ms MarkObjects: 8.661833 ms  DeleteObjects: 1.097292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.7 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.1 MB.
+Total: 10.879291 ms (FindLiveObjects: 0.280500 ms CreateObjectMapping: 0.148959 ms MarkObjects: 9.436250 ms  DeleteObjects: 1.013000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ef97000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.539 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1239ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.7 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.3 MB.
+Total: 10.143792 ms (FindLiveObjects: 0.262750 ms CreateObjectMapping: 0.153541 ms MarkObjects: 8.623292 ms  DeleteObjects: 1.100959 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.2 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.6 MB.
+Total: 10.031541 ms (FindLiveObjects: 0.247709 ms CreateObjectMapping: 0.144750 ms MarkObjects: 8.699041 ms  DeleteObjects: 0.939541 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ef97000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.699 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (325ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.322250 ms (FindLiveObjects: 0.275208 ms CreateObjectMapping: 0.151584 ms MarkObjects: 8.752000 ms  DeleteObjects: 1.142958 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17ef97000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.525 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.815 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (815ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.5 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.5 MB.
+Total: 11.734834 ms (FindLiveObjects: 0.294166 ms CreateObjectMapping: 0.181500 ms MarkObjects: 10.157375 ms  DeleteObjects: 1.101167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2a0947000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.553 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (648ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.597041 ms (FindLiveObjects: 0.268208 ms CreateObjectMapping: 0.184708 ms MarkObjects: 9.072125 ms  DeleteObjects: 1.071625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b0b47000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.524 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1355ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (830ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (720ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.6 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.4 MB.
+Total: 12.900500 ms (FindLiveObjects: 0.287209 ms CreateObjectMapping: 0.189708 ms MarkObjects: 11.097833 ms  DeleteObjects: 1.325042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.2 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.6 MB.
+Total: 10.059583 ms (FindLiveObjects: 0.242583 ms CreateObjectMapping: 0.146167 ms MarkObjects: 8.580667 ms  DeleteObjects: 1.089625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.7 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.1 MB.
+Total: 10.286000 ms (FindLiveObjects: 0.247709 ms CreateObjectMapping: 0.152125 ms MarkObjects: 8.833416 ms  DeleteObjects: 1.052125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.6 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.2 MB.
+Total: 10.241583 ms (FindLiveObjects: 0.273916 ms CreateObjectMapping: 0.149625 ms MarkObjects: 8.817583 ms  DeleteObjects: 0.999875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.7 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.1 MB.
+Total: 10.382208 ms (FindLiveObjects: 0.248458 ms CreateObjectMapping: 0.147416 ms MarkObjects: 8.842500 ms  DeleteObjects: 1.142917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f56b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.126667 ms (FindLiveObjects: 0.247250 ms CreateObjectMapping: 0.144084 ms MarkObjects: 8.594583 ms  DeleteObjects: 1.139792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f56b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.765 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.4 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.6 MB.
+Total: 10.557250 ms (FindLiveObjects: 0.268750 ms CreateObjectMapping: 0.153208 ms MarkObjects: 9.018458 ms  DeleteObjects: 1.116292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.9 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 85.9 MB.
+Total: 10.104709 ms (FindLiveObjects: 0.264083 ms CreateObjectMapping: 0.162417 ms MarkObjects: 8.725083 ms  DeleteObjects: 0.952708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4472 unused Assets / (1.5 MB). Loaded Objects now: 5033.
+Memory consumption went from 87.8 MB to 86.2 MB.
+Total: 10.163958 ms (FindLiveObjects: 0.249625 ms CreateObjectMapping: 0.149208 ms MarkObjects: 8.720334 ms  DeleteObjects: 1.044333 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f56b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1261ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 10.169292 ms (FindLiveObjects: 0.263584 ms CreateObjectMapping: 0.155250 ms MarkObjects: 8.747625 ms  DeleteObjects: 1.002125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f56b000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (714ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Wreckreation Games/Procedural Skybox': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4507 unused Assets / (1.8 MB). Loaded Objects now: 5033.
+Memory consumption went from 100.0 MB to 98.2 MB.
+Total: 11.415541 ms (FindLiveObjects: 0.277875 ms CreateObjectMapping: 0.164792 ms MarkObjects: 9.848792 ms  DeleteObjects: 1.122833 ms)
+
+Prepare: number of updated asset objects reloaded= 0

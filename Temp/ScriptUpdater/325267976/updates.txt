@@ -1,0 +1,1 @@
+Temp/ScriptUpdater/325267976/1604354769_MovingPlayer.cs => Assets/Scenes/script/MovingPlayer.cs
